@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proppulse_commercial_realestate_asset_analytics"
+version = "1.0.0"
+description = "Institutional Commercial Real Estate & REIT Data Warehouse: Net Operating Income (NOI), WAULT lease expiry risk, Cap Rate vs discount rate sensitivity, and tenant rollover."
+readme = "README.md"
+authors = [
+    { name = "Abdussatar", email = "satarabdus692@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Information Analysis"
+]
